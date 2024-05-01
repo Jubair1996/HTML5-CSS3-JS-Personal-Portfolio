@@ -55,7 +55,7 @@ section {
 }
 .navbar a:hover,
 .navbar a.active {
-  color: var(--text-color);
+  color: var(--main-color);
 }
 #menu-icon {
   font-size: 3.6rem;
@@ -65,7 +65,7 @@ section {
 /* Banner Section Styles */
 .home {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .home-content h3 {
@@ -135,3 +135,29 @@ span {
 .btn:hover{
     box-shadow: none;
 }
+/* About Scetion Styles */
+ .about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: var(--snd-bg-color);
+ }
+ .about-img img{
+    width: 35vw;
+ }
+ .heading{
+    text-align: center;
+    font-size: 4.5rem;
+ }
+ .about-content h2{
+    text-align: left;
+    line-height: 1.2;
+ }
+ .about-content h3{
+    font-size: 2.6rem;
+ }
+ .about-content p{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+ }
