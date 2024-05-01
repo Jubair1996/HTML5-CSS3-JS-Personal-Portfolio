@@ -132,3 +132,6 @@ span {
     font-weight: 600;
     transition: .5s ease;
 }
+.btn:hover{
+    box-shadow: none;
+}
