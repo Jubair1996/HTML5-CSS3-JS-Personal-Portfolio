@@ -174,11 +174,12 @@ span {
 .services-container .services-box {
   flex: 1 1 30rem;
   background-color: var(--snd-bg-color);
-  padding: 3rem 2rem 4rem;
+  padding: 3rem 2rem 1rem;
   border-radius: 2rem;
   text-align: center;
   border: 0.2rem solid var(--bg-color);
   transition: 0.5s ease;
+  min-height: 350px;
 }
 .services-container .services-box:hover {
   border-color: var(--main-color);
@@ -369,7 +370,7 @@ span {
   .navbar.active {
     display: block;
   }
-  .navbar a{
+  .navbar a {
     display: block;
     font-size: 2rem;
     margin: 3rem 0;
